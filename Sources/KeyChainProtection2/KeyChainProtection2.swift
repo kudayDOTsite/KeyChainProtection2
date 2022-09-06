@@ -7,7 +7,7 @@ public struct KeyChainProtection2 {
         
     }
     
-    func start(){
+    public func start(){
         if(firsTimeLunc()){
             print("First")
             self.deleteAllKeyChains()
